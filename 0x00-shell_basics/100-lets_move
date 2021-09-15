@@ -1,2 +1,2 @@
 #!/bin/bash
-ls | grep -v "[^A-Z]" | while read FILE ; do [ ! -d "$FILE" ] && mv "$FILE" /tmp/u
+mv [[:upper:]] /tmp/u
